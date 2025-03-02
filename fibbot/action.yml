@@ -1,0 +1,18 @@
+name: 'FibBot'
+description: 'A GitHub Action that calculates Fibonacci numbers from PR content.'
+author: 'tegha-romeo'
+inputs:
+  enable_fib:
+    description: 'Enable Fibonacci calculation'
+    required: true
+    default: 'true'
+  max_threshold:
+    description: 'Maximum threshold for Fibonacci calculation'
+    required: true
+    default: '100'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'activity'
+  color: 'blue'
