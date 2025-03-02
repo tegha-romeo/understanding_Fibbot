@@ -1,6 +1,6 @@
 # FibBot
 
-A GitHub Action that calculates Fibonacci numbers from PR content.
+A GitHub Action that calculates Fibonacci numbers from PR content
 
 ## Usage
 
