@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run FibBot
-        uses: ./fibbot
+        uses: ../../fibbot
         with:
           enable_fib: 'true'
           max_threshold: '100'
